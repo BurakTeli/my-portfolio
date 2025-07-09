@@ -1,16 +1,18 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
 import "./styles/global.css";
+import "./App.css"; // Import new app-level styles
 
 function App() {
   return (
     <>
       <Navbar />
-      <div id="home" style={{ height: "100vh" }}></div>
-      <div id="internships" style={{ height: "100vh" }}></div>
-      <div id="projects" style={{ height: "100vh" }}></div>
-      <div id="references" style={{ height: "100vh" }}></div>
-      <div id="contact" style={{ height: "100vh" }}></div>
+      <Hero />
+      <div id="internships"></div>
+      <div id="projects"></div>
+      <div id="references"></div>
+      <div id="contact"></div>
     </>
   );
 }

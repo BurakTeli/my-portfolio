@@ -1,0 +1,8 @@
+/* Section heights for scroll navigation targets */
+#internships,
+#projects,
+#references,
+#contact {
+  min-height: 100vh;
+  padding: 100px 40px;
+}
