@@ -1,15 +1,18 @@
 import React from "react";
 import "./Navbar.css";
 
-// Navbar component with scroll navigation
+// Navbar component with scroll navigation and logo-scroll to top
 const Navbar: React.FC = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Burak</div>
+      <div className="navbar-logo" onClick={scrollToTop}>
+        Burak Telli
+      </div>
       <ul className="navbar-links">
-        <li>
-          <a href="#home">Anasayfa</a>
-        </li>
         <li>
           <a href="#internships">Stajlarım</a>
         </li>
