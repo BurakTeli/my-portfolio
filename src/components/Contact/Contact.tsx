@@ -11,7 +11,7 @@ const Contact = () => {
         aria-label="LinkedIn"
       >
         <img
-          src="/assets/images/Contact/Linkedin.png"
+          src="/assets/images/Contact/Linkedin1.png"
           alt="LinkedIn"
           className="contact-icon"
         />
@@ -23,14 +23,14 @@ const Contact = () => {
         aria-label="GitHub"
       >
         <img
-          src="/assets/images/Contact/github.png"
+          src="/assets/images/Contact/github1.png"
           alt="GitHub"
           className="contact-icon"
         />
       </a>
       <a href="mailto:tellibrk216@gmail.com" aria-label="Email">
         <img
-          src="/assets/images/Contact/mail.png"
+          src="/assets/images/Contact/mail1.png"
           alt="Email"
           className="contact-icon"
         />
