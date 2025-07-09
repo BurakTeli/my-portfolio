@@ -7,6 +7,7 @@ import Internships from "./components/Internships/Internships";
 import Bootcamps from "./components/Bootcamps/Bootcamps";
 import Contact from "./components/Contact/Contact";
 
+
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
       <Internships />
       <Bootcamps />
       <Contact />
+ 
       <div id="internships"></div>
       <div id="projects"></div>
       <div id="references"></div>

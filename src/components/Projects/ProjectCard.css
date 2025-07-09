@@ -1,0 +1,64 @@
+.project-card {
+  background-color: #0d1117;
+  border-radius: 16px;
+  padding: 20px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Header with 3 colored dots */
+.card-header {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background-color: #ff5f57;
+}
+
+.yellow {
+  background-color: #ffbd2e;
+}
+
+.green {
+  background-color: #28c840;
+}
+
+/* Image styling */
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Text content */
+.project-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #c9d1d9;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #8b949e;
+  margin: 0;
+}
