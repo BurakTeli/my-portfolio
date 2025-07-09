@@ -1,0 +1,22 @@
+/* Container for positioning */
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Circular image style */
+.hero-image {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #3da9fc;
+  box-shadow: 0 0 30px rgba(61, 169, 252, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.hero-image:hover {
+  transform: scale(1.05);
+}
