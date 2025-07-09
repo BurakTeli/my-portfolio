@@ -1,0 +1,28 @@
+.category-tabs {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  background: none;
+  border: 2px solid #8b949e;
+  color: #c9d1d9;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.tab-button:hover {
+  background-color: #21262d;
+}
+
+.tab-button.active {
+  background-color: #58a6ff;
+  color: #ffffff;
+  border-color: #58a6ff;
+}
