@@ -1,0 +1,90 @@
+/* Section wrapper */
+.internships-section {
+  padding: 100px 40px;
+  text-align: center;
+}
+
+/* Section title */
+.internships-title {
+  font-size: 2.5rem;
+  color: #3da9fc;
+  margin-bottom: 60px;
+}
+
+/* Grid layout with reduced gap */
+.internship-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px; /* gap azaltıldı */
+  justify-items: center;
+  align-items: stretch;
+}
+
+/* Internship card - wider and taller */
+.internship-card {
+  background-color: #2a2a2a;
+  padding: 48px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 380px; /* daha geniş */
+  height: 520px; /* daha uzun */
+  box-shadow: 0 0 24px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: scale(1.05);
+}
+
+/* Logo */
+.internship-logo {
+  width: 100%;
+  height: 220px;
+  object-fit: contain;
+  margin-bottom: 24px;
+}
+
+/* Şirket adı */
+.internship-company {
+  color: #ffffff;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Süre bilgisi */
+.internship-duration {
+  color: #cccccc;
+  font-size: 1.05rem;
+  margin-bottom: 24px;
+}
+
+/* Detaylı buton */
+.internship-button {
+  padding: 14px 32px;
+  background-color: #3da9fc;
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: default;
+}
+
+/* Responsive: Tablet */
+@media (max-width: 1024px) {
+  .internship-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive: Mobil */
+@media (max-width: 640px) {
+  .internship-list {
+    grid-template-columns: 1fr;
+  }
+}
