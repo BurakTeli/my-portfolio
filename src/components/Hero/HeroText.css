@@ -1,0 +1,19 @@
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #3da9fc;
+  margin-bottom: 16px;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
