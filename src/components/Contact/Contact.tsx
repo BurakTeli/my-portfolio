@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <a
         href="https://www.linkedin.com/in/burak-telli-840468280/"
         target="_blank"
