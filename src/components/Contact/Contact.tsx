@@ -23,14 +23,14 @@ const Contact = () => {
         aria-label="GitHub"
       >
         <img
-          src="/assets/images/Contact/github.jpeg"
+          src="/assets/images/Contact/github.png"
           alt="GitHub"
           className="contact-icon"
         />
       </a>
       <a href="mailto:tellibrk216@gmail.com" aria-label="Email">
         <img
-          src="/assets/images/Contact/mail.webp"
+          src="/assets/images/Contact/mail.png"
           alt="Email"
           className="contact-icon"
         />
